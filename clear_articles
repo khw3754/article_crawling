@@ -1,5 +1,6 @@
 
 rm ~/articles/chosun/*
+rm ~/articles/donga/*
 rm ~/articles/edaily/*
 rm ~/articles/financial/*
 rm ~/articles/hankyoreh/*
@@ -12,4 +13,3 @@ rm ~/articles/maeil/*
 rm ~/articles/mbn/*
 rm ~/articles/moneytoday/*
 rm ~/articles/sbs/*
-~
