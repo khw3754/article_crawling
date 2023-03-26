@@ -85,7 +85,7 @@ def print_articles(entries, company, get_encoding):
 
 
 def save_articles(entries, company, get_encoding):
-    file_path = "/Users/hyung/Desktop/article/" + company + "/"
+    file_path = "/Users/hyung/articles/" + company + "/"
     count = 0
     for entry in entries:
         title = entry["title"]
@@ -147,4 +147,4 @@ def save_articles(entries, company, get_encoding):
         except:
             print(title + "      저장 오류       " + link)
 
-    return count 
+    return count
