@@ -85,6 +85,7 @@ def print_articles(entries, company, get_encoding):
 
 
 def save_articles(entries, company, get_encoding):
+    # 경로 조정 필요
     file_path = "/Users/hyung/articles/" + company + "/"
     count = 0
     for entry in entries:
